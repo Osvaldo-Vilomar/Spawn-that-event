@@ -1,0 +1,1608 @@
+body { 
+	margin: -1px;
+	font-size: .8em;
+	font-family: Arial, Verdana, Geneva, sans-serif;
+}
+
+a:link {color:#000000;} 
+
+.floatContain:after {
+	visibility: hidden;
+    display: inline-block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.floatContain { display: inline-block; }
+
+#main {
+	width: 1050px;
+	min-width: 1050px;
+	border-style: solid;
+	border-width: thin;
+	border-bottom-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#studentNameHeader {
+	padding-top: 5px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+#header {
+	border-bottom-style: solid;
+	border-width: thin;
+	background-color: rgb(245, 245, 245);
+	padding-bottom: 5px;
+}
+
+#name {
+	margin: 15px 0px 10px 2px;
+	padding: 6px 8px 0px 8px;
+}
+
+#logo {
+	font-size: 2em;
+}
+
+#search {
+	float: right;
+	margin-bottom: 3px;
+}
+
+#searchSomething {
+	border-style: solid;
+	border-width: thin;
+	padding: 3px 4px;
+	cursor: pointer;
+	background-color: rgb(225, 225, 225);
+	display: inline-block;
+}
+
+#searchTime {
+	border-style: solid;
+	border-width: thin;
+	padding: 3px 4px;
+	cursor: pointer;
+	background-color: white;
+	display: inline-block;
+}
+
+#searchBoth {
+	border-style: solid;
+	border-width: thin;
+	padding: 3px 4px;
+	cursor: pointer;
+	background-color: white;
+	display: inline-block;
+}
+
+#searchFloat {
+	float: right;
+	border-style: solid;
+	border-width: thin;
+	border-color: rgb(190, 190, 190);
+	background-color: rgb(215, 215, 215);
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#searchButton {
+	float: right;
+	display: inline-block;
+	border-style: solid;
+	border-width: thin;
+	border-color: rgb(100, 100, 100);
+	color: rgb(25, 25, 25);
+	background-color: white;
+	padding: 2px 4px 2px 4px;
+	cursor: pointer;
+	margin-left: 3px;
+}
+#bottomAlign {
+	border-style: solid;
+	border-width: thin;
+	position: absolute;
+	bottom: 0;
+	margin-left: 2px;
+	float: right;
+}
+
+#linkBar {
+	border-bottom-style: solid;
+	border-width: thin;
+	background-color: white;
+}
+
+#home {
+	border-right-style: solid;
+	border-width: thin;
+	font-size: 1.3em;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	display: inline-block;
+}
+
+#home:hover {
+	background-color: rgb(225, 225, 225);
+}
+
+#topEvents {
+	border-right-style: solid;
+	border-width: thin;
+	float: left;
+	font-size: 1.3em;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#topEvents:hover {
+	background-color: rgb(225, 225, 225);
+}
+
+#createEvent {
+	border-right-style: solid;
+	border-width: thin;
+	font-size: 1.3em;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	display: inline-block;
+}
+
+#createEvent:hover {
+	background-color: rgb(225, 225, 225);
+}
+
+#fieldOfStudy {
+	margin-left: .2px;
+	height: 25px;
+	border-style: solid;
+	border-width: thin;
+	float: left;
+	width: 100px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#timeCategory {
+	border-bottom-style: solid;
+	border-width: thin;
+	background-color: white;
+}
+
+#topSeven {
+	margin-top: 5px;
+	margin-right: 19px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	float: left;
+	border-style: solid;
+	border-width: thin;
+	border-right-style: none;
+}
+
+#noCategoryVotes {
+	margin-top: 5px;
+	margin-right: 19px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	float: left;
+	padding: 6px 12px 6px 12px;
+}
+
+
+span.categorySeven {
+	font-size: .9em;
+	padding: 5px;
+}
+
+#number1 {
+	border-right-style: solid;
+	border-width: thin;
+	float: left;
+	padding: 6px 12px 6px 12px;
+	cursor: pointer;
+}
+
+#number2 {
+	border-right-style: solid;
+	border-width: thin;
+	float: left;
+	padding: 6px 12px 6px 12px;
+	cursor: pointer;
+}
+
+#number3 {
+	border-right-style: solid;
+	border-width: thin;
+	float: left;
+	padding: 6px 12px 6px 12px;
+	cursor: pointer;
+}
+
+#number4 {
+	border-right-style: solid;
+	border-width: thin;
+	float: left;
+	padding: 6px 12px 6px 12px;
+	cursor: pointer;
+}
+
+#number5 {
+	border-right-style: solid;
+	border-width: thin;
+	float: left;
+	padding: 6px 12px 6px 12px;
+	cursor: pointer;
+}
+
+#number6 {
+	border-right-style: solid;
+	border-width: thin;
+	float: left;
+	padding: 6px 12px 6px 12px;
+	cursor: pointer;
+}
+#number7 {
+	float: left;
+	padding: 6px 12px 6px 12px;
+	cursor: pointer;
+}
+
+#allCategoriesFind {
+	float: right;
+	margin: 8px 12px;
+	position: relative;
+}
+
+#allCategoriesClick {
+	cursor: pointer;
+}
+
+#allCategoriesBubble {
+	position: absolute;
+	width: 500px;
+	padding: 5px 10px 5px 10px;
+	right: 85px;
+	top: -53px;
+	background-color: white;
+	border-style: solid;
+	border-width: thin;
+	z-index: 2;
+	display: none;
+}
+
+#searchLinkDiv {
+	padding: 0 6px 6px 6px;
+	border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+#eventCount {
+	position:absolute; right: 0;
+	float: right;
+	font-size: .9em;
+	cursor: pointer;
+}
+
+.categoriesEventTotal {
+	font-size: .9em;
+	color: rgb(180, 180, 180);
+}
+#searchLinkType {
+	font-size: 1.1em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+	margin: 5px 0px;
+}
+
+#searchLinkTrack {
+	border-style: solid;
+	border-width: thin;
+	font-size: 1.1em;
+	padding: 2px 15px 2px 15px;
+	cursor: default;
+}
+#searchLinkTrack:hover {
+	background-color: rgb(240, 240, 240);
+}
+
+#searchLinkCategory {
+	border-style: solid;
+	border-width: thin;
+	border-right-style: none;
+	font-size: 1.1em;
+	padding: 2px 15px 2px 15px;
+	cursor: default;
+}
+#searchLinkCategory:hover {
+	background-color: rgb(240, 240, 240);
+}
+
+#allCategoriesBubbleContain {
+}
+
+
+#allCategoriesBubbleC1 {
+	width: 160px;
+	float: left;
+}
+
+#allCategoriesBubbleC2 {
+	width: 160px;
+	float: left;
+}
+
+#allCategoriesBubbleC3 {
+	width: 160px;
+	float: left;
+}
+
+#allCategoriesRow {
+	margin: 5px 0px 5px 0px;
+}
+
+.allCategoriesTotalEvents {
+	float: left;
+	min-height: 160px;
+}
+
+.allCategoriesTotalEventsRow {
+	text-align: center;
+	display: block;
+	padding-right: 5px;
+	padding-top: 6px;
+	font-size: .9em;
+}
+.allCategoriesTotalEventsZeroRow {
+	visibility: hidden;
+	text-align: center;
+	display: block;
+	padding-right: 5px;
+	padding-top: 6px;
+	font-size: .9em;
+}
+
+.linkFocused {
+	text-decoration: underline;
+}
+.type1Link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#allCategoriesBubble:after {
+	content: "";
+	position: absolute;
+	top: 45px;
+	right: -15px;
+	border-style: solid;
+	border-width: 15px 0px 15px 15px;
+	border-color: transparent black;
+	display: block;
+	width: 0;
+	z-index: 1;
+}
+
+#allCategoriesBubbleOutline {
+	content: "";
+	position: absolute;
+	top: 45px;
+	right: -13px;
+	border-style: solid;
+	border-width: 15px 0px 15px 15px;
+	border-color: transparent white;
+	display: block;
+	width: 0;
+	z-index: 2;
+}
+
+#categoriesBottomSpace {
+	content: "";
+	clear: both;
+	min-height: 1px;
+	max-height: 1px;
+}
+
+#boxMain {
+	min-height: 600px;
+	background-color: white;
+}
+
+#settings {
+	float: right;
+	margin-top: 5px;
+	position: relative;
+}
+
+#settingsLink {
+	border-style: solid;
+	border-width: thin;
+	min-width: 20px;
+	min-height: 20px;
+}
+
+#settingsBubble {
+	display: none;
+}
+
+#settingsLink:hover {
+	background-color: rgb(225, 225, 225);
+	cursor: pointer;
+}
+
+#settingsBox {
+	min-width: 300px;
+	position: absolute;
+	left: 39px;
+	top: -75px;
+	border-style: solid;
+	border-width: thin;
+	background-color: white;
+	z-index: 1;
+	padding-bottom: 5px;
+}
+
+#settingsBoxArrow {
+	content: "";
+	position: absolute;
+	top: -6px;
+	left: 25px;
+	border-style: solid;
+	border-width: 15px 15px 15px 0px;
+	border-color: transparent black;
+	display: block;
+	width: 0;
+	z-index: 1;
+}
+
+#settingsBoxArrowOutline {
+	content: "";
+	position: absolute;
+	top: -6px;
+	left: 27px;
+	border-style: solid;
+	border-width: 15px 15px 15px 0px;
+	border-color: transparent white;
+	display: block;
+	width: 0;
+	z-index: 2;
+}
+
+.settingsTitle {
+	font-size: 1.2em;
+	background-color: #F8F8F8;
+	border-bottom-style: solid;
+	border-width: thin;
+	padding: 7px;
+}
+
+.settingsTitleText {
+	padding-top: 6px;
+	display: inline-block;
+}
+.settingsTitleX {
+	float: right;
+	border-style: solid;
+	border-width: thin;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+	cursor: default;
+}
+
+.settingsTitleX:hover {
+	background-color: rgb(200, 200, 200);
+}
+
+.settingsAdjust {
+	margin: 0px 10px 10px 10px;
+	padding: 3px 3px 3px 0px;
+	border-bottom-style: solid;
+	border-width: thin;
+	border-color: rgb(200, 200, 200);
+}
+
+.eventInfoFormat {
+	padding: 5px 5px 5px 0px;
+	display: inline-block;
+}
+
+.eventInfoFormat:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.settingsContent {
+	margin: 5px 10px 10px 10px;
+	border-style: solid;
+	border-width: thin;
+	padding: 5px;
+	cursor: default;
+}
+
+.settingsContent:hover {
+	background-color: rgb(225, 225, 225);
+}
+
+.settingsEventRemove {
+	float: right;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.settingsEventRemove:hover {
+	background-color: rgb(180, 180, 180);
+	color: white;
+}
+
+#detailStatus {
+	
+}
+
+#tagLinkType {
+	margin-top: 2px;
+	display: block;
+}
+
+#searchTag {
+	border-style: solid;
+	border-width: thin;
+	border-right-style: none;
+	padding: 3px 6px 3px 6px;
+	display: inline-block;
+	cursor: default;
+	background-color: rgb(240, 240, 240);
+}
+
+#allTags {
+	padding: 3px 6px 3px 6px;
+	display: inline-block;
+	cursor: default;
+}
+
+.tagShowResult {
+	display: inline-block;
+	padding-right: 6px;
+	margin-top: 5px;
+	width: 450px;
+	margin-left: 5px;
+}
+
+.tagResultNone {
+	font-size: .9em;
+}
+
+.displayEventShadow {
+	background-color: rgb(250, 250, 250);
+	padding: 3px;
+}
+
+.tagResultTrue {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 1px 3px;
+    margin: 0px 5px 5px 0px;
+}
+
+.tagResultTrue:hover {
+	cursor: pointer;
+	background-color: rgb(240, 240, 240);
+}
+
+#timeBar1 {
+	margin-top: 10px;
+	margin-left: 19px;
+	border-style: solid;
+	border-width: thin;
+	float: left;
+	overflow: hidden;
+}
+
+#timeBarTest {
+	border-style: solid;
+	border-width: thin;
+	float: left;
+	margin-left: 200px;
+	margin-top: 5px;
+}
+
+#timeBarContain {
+	margin-top: 7px;
+	margin-bottom: 10px;
+}
+
+#eventsTitle {
+	border-bottom-style: solid;
+	border-width: thin;
+	width: 537px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+.eventTagsContain {
+	border-bottom: thin solid #CDCDCD;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.categoryOnly {
+	border-style: solid;
+	border-width: thin;
+	border-bottom-style: none;
+	font-size: 1.3em;
+	padding: 5px 7px 3px 7px;
+	z-index: 1;
+	background-color: white;
+	cursor: pointer;
+	display: inline-block;
+}
+#AllEventsSpan {
+	border-style: solid;
+	border-width: thin;
+	font-size: 1.3em;
+	padding: 5px 7px 3px 7px;
+	z-index: 1;
+	background-color: white;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#StudyEventsSpan {
+	border-style: solid;
+	border-width: thin;
+	font-size: 1.3em;
+	padding: 5px 7px 3px 7px;
+	z-index: 1;
+	background-color: white;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#TopEventsSpan {
+	border-style: solid;
+	border-width: thin;
+	font-size: 1.3em;
+	padding: 5px 7px 3px 7px;
+	z-index: 1;
+	background-color: white;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#timeBarStudy {
+	border-style: solid;
+	border-width: thin;
+	width: 513px;
+	float: left;
+}
+
+span.timeSpan {
+	font-size: .9em;
+	padding: 5px;
+}
+
+.timeTabFocused {
+	text-decoration: underline;
+}
+
+#today {
+	border-right-style: solid;
+	border-width: thin;
+	float: left;
+	cursor: pointer;
+	padding: 3px;
+	padding-bottom: 4px;
+}
+
+#today:hover {
+	text-decoration: underline;
+}
+
+#tomorrow {
+	border-right-style: solid;
+	border-width: thin;
+	float: left;
+	cursor: pointer;
+	padding: 3px;
+	padding-bottom: 4px;
+}
+
+#tomorrow:hover {
+	text-decoration: underline;
+}
+
+#weekly {
+	float: left;
+	cursor: pointer;
+	padding: 3px;
+	padding-bottom: 4px;
+}
+
+#weekly:hover {
+	text-decoration: underline;
+}
+
+#daily1 {
+	border-style: solid;
+	border-width: thin;
+	float: left;
+	cursor: pointer;
+	padding: 3px;
+}
+
+#daily1:hover {
+	text-decoration: underline;
+}
+
+#daily2 {
+	border-style: solid;
+	border-width: thin;
+	width:60px;
+	float: left;
+	cursor: pointer;
+	height: 20px;
+}
+
+#daily2:hover {
+	text-decoration: underline;
+}
+
+#weekly2 {
+	border-style: solid;
+	border-width: thin;
+	width: 50px;
+	float: left;
+	cursor: pointer;
+	height: 20px;
+}
+
+#weekly2:hover {
+	text-decoration: underline;
+}
+
+#categorize {
+	font-size: .9em;
+	cursor: pointer;
+}
+
+#eventFeed {
+	border-style: solid;
+	border-width: thin;
+	font-size: 1.3em;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#upBox {
+	float:left;
+	cursor: pointer;
+	padding-left: 6px;
+	padding-right: 4px;
+}
+
+.centerUp {
+	
+}
+
+.rightInfoHome {
+	overflow: hidden;
+	margin-left: 3px;
+	border-bottom-style: solid;
+	border-width: thin;
+	padding-bottom: 5px;
+	border-color: rgb(205, 205, 205);
+}
+
+#box1 {
+	width: 560px;
+	float: left;
+	margin-right: 3px;
+	min-height: 100px;
+}
+
+#leftEvent {
+}
+
+#leftEventStudy {
+}
+
+span.titleDecor {
+	font-size: 1.2em;
+	margin-left: 2px;
+}
+
+#eventSpacing {
+	margin-top: 4px;
+}
+
+#eventNameCategory {
+	overflow: hidden;
+	padding-left: 1px;
+}
+#eventNameShow {
+	float: left;
+	font-size: 1.1em;
+}
+
+.eventNameShowClass:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#category {
+	float: right;
+	border-style: solid;
+	border-width: thin;
+	margin-right: 3px;
+	padding: 1px 2px 1px 2px;
+}
+
+#shortDescriptionAllEvents {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+.shortDescription {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+.attendingDetails {
+	font-size: 1.2em;
+}
+.notAttending {
+	margin-top: 10px;
+	font-size: .9em;
+	padding-left: 2px;
+	margin-bottom: 10px;
+}
+
+.notAttendingBox {
+	border-style: solid;
+	border-width: thin;
+	padding: 2px;
+	cursor: pointer;
+}
+.eventDate {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+.timeInfoAndLocation {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+#sponsorShow {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+#attendDetails {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+.attendDetailsSpan {
+	cursor: pointer;
+	font-style: italic;
+}
+
+.attendDetailsSpan:hover {
+	text-decoration: underline;
+}
+
+.loadHide {
+	display: none;
+}
+#detailFont {
+	font-size: 1em;
+}
+
+#contactShow {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+.followName {
+	cursor: pointer;
+}
+
+#votesShow {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+#categoryShow {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+#attendingShow {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+#votesShow {
+	margin-top: 5px;
+	padding-left: 2px;
+}
+
+#attendButton {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 2px;
+}
+
+.attendClass {
+	padding: 2px;
+	cursor: pointer;
+	display: inline;
+	text-decoration: underline;
+}
+
+.attendClass:hover {
+	text-decoration: none;
+}
+
+#box2 {
+	width: 465px;
+	float: right;
+	min-height: 700px;
+	margin-right: 5px;
+}
+
+#rightEvent {
+	margin-bottom: 10px;
+}
+
+#level2TimeBar {
+	border-style: solid;
+	border-width: thin;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 936px;
+	float: left;
+	overflow: hidden;
+}
+
+#daily3 {
+	border-style: solid;
+	border-width: thin;
+	width:50px;
+	float: left;
+}
+
+#weekly3 {
+	border-style: solid;
+	border-width: thin;
+	width: 50px;
+	float: left;
+}
+
+#box3 {
+	border-style: solid;
+	border-width: thin;
+	width: 930px;
+	float: left;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+
+#footer {
+	height: 100px;
+	border-style: solid;
+	border-width: thin;
+	border-bottom-color: white;
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(245, 245, 245);
+}
+
+#footer2 {
+	height: 30px;
+	border-style: solid;
+	border-width: thin;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#form {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 1000px;
+	padding: 10px;
+}
+
+/*
+replace all basicRed with red
+*/
+.basicRed {
+	color: red;
+}
+
+.red { color: red; }
+
+span.brickRed {
+	color: #B22222;
+}
+
+span.brickRedFont {
+	color: #B22222;
+	font-size: .8em;
+}
+span.onColor {
+	color: blue;
+}
+span.offColor {
+	color: #B22222;
+}
+
+.green {
+	color: green;
+}
+
+#eventName {
+	width: 200px;
+	margin-bottom: 5px;
+}
+
+#followStatusText {
+	margin-top: 5px;
+}
+#followStatus {
+	margin-top: 5px;
+	font-size: .9em;
+}
+
+#sponsor {
+	margin: 5px 0px;
+	width: 200px;
+}
+
+#date {
+	margin-top: 10px;
+	width: 200px;
+}
+
+#time {
+	margin-top: 10px;
+	width: 390px;
+}
+
+#ampmFont {
+	font-size: .9em;
+}
+
+#location {
+	margin: 10px 0px 5px;
+	width: 200px;
+}
+
+#shortDescriptionForm {
+	margin: 5px 0px;
+	width: 200px;
+	
+}
+
+#details {
+	margin-top: 5px;
+	width: 200px;
+}
+
+#nameHere {
+	margin: 5px 0px;
+	width: 200px;
+}
+
+#contactInfo {
+	margin: 5px 0px;
+	width: 200px;
+}
+
+#submit {
+	width: 200px;
+	margin-top: 10px;
+}
+
+#sharedEventsBox {}
+
+#sharedEventsTitle {
+	font-size: 1.3em;
+	border-style: solid;
+	border-width: thin;
+	padding: 5px;
+	cursor: pointer;
+	background-color: rgb(225, 225, 225);
+}
+
+#sharedEventsTitle:hover {
+	box-shadow: 0 0 2px black;
+    -webkit-box-shadow: 0 0 4px black; 
+    -moz-box-shadow: 0 0 2px black; 
+}
+
+#sharedEventsContent {
+	border-style: solid;
+	border-width: thin;
+	border-top-style: none;
+	padding: 5px 5px 0px;
+}
+
+#actionFeed {
+	margin-bottom: 5px;
+}
+
+#followShareFeed {
+	cursor: pointer;
+}
+
+#actionFeedText {
+	
+}
+
+#actionFeedTime {
+	float: right;
+	overflow: hidden;
+	font-size: .9em;
+}
+
+#attendingBox {}
+
+#attendingBoxTitle {
+	font-size: 1.3em;
+	border-style: solid;
+	border-width: thin;
+	padding: 5px;
+	cursor: pointer;
+	background-color: rgb(225, 225, 225);
+}
+
+#attendingBoxTitle:hover {
+    box-shadow: 0 0 3px black;
+    -webkit-box-shadow: 0 0 3px black; 
+    -moz-box-shadow: 0 0 3px black;
+    position: relative;
+}
+
+#attendingEventsContent {
+	border: 1px solid;
+	border-top-style: none;
+}
+
+#attendingEventsContain {
+	padding: 5px;
+}
+
+#attendingTitle {
+	float: left;
+	font-size: 1.1em;
+}
+
+.attendingTitle {
+	font-size: 1.1em;
+}
+
+#attendingCategory {
+	float: right;
+	border-style: solid;
+	border-width: thin;
+	margin-right: 3px;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-size: .9em;
+	overflow: hidden;
+}
+#allCategoriesBox {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#allCategoriesTitle {
+	font-size: 1.3em;
+	border-style: solid;
+	border-width: thin;
+	padding: 5px;
+	cursor: pointer;
+	background-color: rgb(225, 225, 225);
+}
+
+#allCategoriesTitle:hover {
+	box-shadow: 0 0 3px black;
+    -webkit-box-shadow: 0 0 3px black; 
+    -moz-box-shadow: 0 0 3px black; 
+}
+
+#recentlyVisitedBox {
+	padding-top: 7px;
+	float: right;
+	min-width: 125px;
+}
+
+#recentlyVisitedTitle {
+	padding: 3px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#recentlyVisitedContent {
+	padding-bottom: 4px;
+}
+
+ul {
+	font-size: .9em;
+	margin: 0px;
+	padding-right: 20px;
+	padding-left: 25px;
+}
+
+li {
+	list-style-type: square;
+	margin: 0px;
+	margin-top: 5px;
+	padding-left: 0px;
+	padding-bottom: 3px;
+}
+
+#li1:hover{text-decoration: underline;cursor: pointer;}#li2:hover{text-decoration: underline;cursor: pointer;}
+#li3:hover{text-decoration: underline;cursor: pointer;}#li4:hover{text-decoration: underline;cursor: pointer;}
+#li5:hover{text-decoration: underline;cursor: pointer;}
+
+
+#categoryList {
+	padding: 8px;
+	margin-right: 135px;
+	border-right-style: solid;
+	border-width: thin;
+	border-color: rgb(216,216,216);
+}
+
+.categoryListing {
+	padding-bottom: 2px;
+}
+
+.categoryListing:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#allCategoriesContent {
+	border-style: solid;
+	border-width: thin;
+	border-top-style: none;
+	overflow: hidden;
+}
+#centerOfCampus {
+	text-align: center;
+	padding: 3px;
+	border-style: solid;
+	border-width: thin;
+	display: inline-block;
+	margin: 3px;
+}
+div.centerOfCampus {
+	text-align: center;
+}
+#map { height: 400px; }
+
+.attendingPadLeft {
+	padding-left: 3px;
+}
+
+#eventHistoryBox {}
+
+#eventHistoryTitle {
+	font-size: 1.3em;
+	border-style: solid;
+	border-width: thin;
+	border-top-style:none;
+	padding: 5px;
+	cursor: pointer;
+	background-color: rgb(225, 225, 225);
+}
+
+#eventHistoryTitle:hover {
+	box-shadow: 0 0 3px black;
+    -webkit-box-shadow: 0 0 3px black; 
+    -moz-box-shadow: 0 0 3px black; 
+}
+
+#eventHistoryContent {
+	border: 1px solid;
+	border-top-style: none;
+	padding: 5px;
+}
+
+.eventHistoryContain {
+	margin-bottom: 3px;
+}
+
+#eventsCreatedTitle {
+	font-size: 1.3em;
+	border-style: solid;
+	border-width: thin;
+	border-top-style: none;
+	padding: 5px;
+	cursor: pointer;
+	background-color: rgb(225, 225, 225);
+}
+
+#eventsCreatedTitle:hover {
+	box-shadow: 0 0 2px black;
+    -webkit-box-shadow: 0 0 2px black; 
+    -moz-box-shadow: 0 0 2px black; 
+    position: relative;
+}
+
+#eventsCreatedContent {
+	border-style: solid;
+	border-width: thin;
+	padding: 5px;
+	border-top-style: none;
+}
+
+.eventsCreatedContain {
+	margin-bottom: 3px;
+}
+
+.eventsCreatedDetails {
+	font-size: .9em;
+	padding: 1px 3px;
+}
+
+#box2TitleCorner {
+	float: right;
+	font-size: .85em;
+}
+
+.eventHistoryDetails {
+	font-size: .9em;
+	padding: 1px 3px;
+}
+
+#padLeft {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+#eventType {
+	margin-top: 10px;
+}
+
+#includeEventTag {
+	margin-left: 15px;
+}
+
+.tagRadio {
+	font-size: .8em;
+}
+
+#tagsField {
+	margin-left: 15px;
+	display: none;
+}
+
+#tagsText {
+	position: relative;
+	display: inline;
+}
+
+#allTagsDiv {
+	width: 300px;
+	left: 10px;
+	border-style: solid;
+	border-width: thin;
+	position: absolute;
+	display: inline;
+}
+
+#allTagsTitle {
+	padding: 3px;
+	text-align: center;
+}
+
+.divTagRow {
+	min-width: 280px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 3px;
+	border-top: 1px solid rgb(220, 220, 220);
+}
+
+#divTagRequest {
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px 0px 15px;
+	border-top: 1px solid rgb(220, 220, 220);
+	font-size: .9em;
+}
+
+#requestTagTextContain {
+	visibility: hidden;
+}
+
+#requestTagExists {
+	margin-top: 5px;
+	margin-left: 73px;
+	font-size: .85em;
+}
+
+.divTag {
+	border-style: solid;
+	border-width: thin;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 4px;
+	padding: 2px 6px 1px 6px;
+	margin-right: 5px;
+	display: inline-block;
+	font-size: .9em;
+}
+.divTag:hover{
+	cursor: pointer;
+	background-color: rgb(230, 230, 230);
+}
+.divTagNone {
+	margin-left: 5px;
+	font-size: .9em;
+}
+#copyRight {
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#copyRightSpan {
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	display: block;
+}
+
+.bubbleContainerHome {
+	position: relative;
+}
+
+.bubbleContainer {
+	position: relative;
+}
+
+.bubble {
+	position: absolute;
+	top: -90px;
+	left: 15px;
+	min-width: 260px;
+	max-width: 260px;
+	padding: 0px;
+	background: white;
+	border-style: solid;
+	border-width: thin;
+	min-height: 175px;
+}
+
+.bubble:after {
+	content: "";
+	position: absolute;
+	top: 80px;
+	left: -15px;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-color: transparent black;
+	display: block;
+	width: 0;
+	z-index: 1;
+}
+
+.bubbleOutline {
+	content: "";
+	position: absolute;
+	top: -9px;
+	left: 3px;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-color: transparent white;
+	display: block;
+	width: 0;
+	z-index: 1;
+}
+
+#bubbleContent {
+	margin: 10px 5px 0px 5px;
+}
+
+#bubbleDescription {
+	margin: 10px 5px 10px 5px;
+}
+
+#bubbleHorizontal {
+	content: "";
+	border-top-style: solid;
+	border-width: thin;
+	border-color: rgb(216,216,216);
+	margin-top: 10px;
+}
+
+#bubbleTitleContent {
+	padding: 5px;
+	font-size: 1em;
+	background-color: #F8F8F8;
+	border-bottom-style: solid;
+	border-width: thin;
+}
+
+#closeButton {
+	font-size: .7em;
+	border-style: solid;
+	border-width: thin;
+	padding: 2px 3px 2px 3px;
+	float: right;
+	cursor: default;
+}
+
+#closeButton:hover {
+	background-color: rgb(200, 200, 200);
+}
+
+#bottomSpaceHeader {
+	content: "";
+	clear: both;
+}
+#bottomSpace {
+	content: "";
+	clear: both;
+	min-height: 15px;
+	max-height: 15px;
+}
+
+#allEventsContent {
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+.eventsFeedIndent {
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+#studyEventsContent {
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+.hoverNoUnderline {
+	text-decoration: underline;
+}
+
+.hoverNoUnderline:hover {
+	text-decoration: none;
+}
+
+span.eventTitleDecor {
+	font-size: 1.2em;
+	margin-left: 2px;
+}
+
+span.eventTitleDecor:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

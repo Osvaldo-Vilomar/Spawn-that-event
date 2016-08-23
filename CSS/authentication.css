@@ -1,0 +1,220 @@
+#boxMainLogin {
+	margin-top: 6px;
+	border-style: solid;
+	border-width: thin;
+	border-bottom-style: none;
+	width: 1030px;
+	min-width: 1030px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 565px;
+}
+
+#loginBottomBar {
+	border: 1px solid;
+	padding: 10px 75px;
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+}
+
+#aboutUsLink {
+	cursor: pointer;
+}
+
+#aboutUsShow {
+	height: 250px;
+	width: 1045px;
+	display: none;
+}
+
+#studentBlank {
+	width: 383px;
+	text-align: right;
+	float: right;
+}
+
+#emailText {
+	float:left;
+}
+
+#passText {
+	float: left;
+	margin-left: 10px;
+}
+
+#searchText {
+	float: right;
+}
+
+#signinBox {
+	float: right;
+	border-style: solid;
+	border-width: thin;
+	margin-left: 5px;
+	cursor: pointer;
+	padding: 2px 5px 2px 5px;
+}
+#box1Login {
+	width: 300px;
+	float: left;
+	overflow: hidden;
+	margin-top: 50px;
+	min-height: 200px;
+	margin-left: 40px;
+	margin-right: 40px;
+	
+}
+
+#signUpTitle {
+	font-size: 1.5em;
+	padding: 3px 0px 3px 0px;
+	text-align: center;
+}
+
+#signUpFName {
+	margin-top: 5px;
+}
+
+#signUpLName {
+	margin-top: 8px;
+}
+
+#signUpEmail {
+	margin-top: 8px;
+}
+
+#signUpStudying {
+	margin-top: 8px;
+}
+
+#signUpCommunity {
+	margin-top: 8px;
+}
+
+#centerLogin {
+	border-style: solid;
+	border-width: thin;
+	width: 245px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#box2Login {
+	width: 600px;
+	float: right;
+	padding: 3px;
+	max-height: 559px;
+}
+
+#aboutusBox {
+	text-align: center;
+	font-size: 1.3em;
+	margin-top: 5px;
+}
+
+#aboutusTitle:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#aboutusSlide {
+	
+}
+#populateEvents {
+	margin-top: 10px;
+	margin-bottom: 9px;
+	margin-left: 20px;
+	width: 537px;
+	border-style: solid;
+	border-width: thin;
+	text-align: center;
+	font-size: 1.5em;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+#featuredEvents {
+	border-style: solid;
+	border-width: thin;
+	min-height: 310px;
+	width: 537px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+#tagRow {
+	margin-left: 20px;
+}
+
+#allTagsLogin {
+	border-style: solid;
+	border-width: thin;
+	padding: 3px 6px 3px 6px;
+	display: inline-block;
+	cursor: default;
+}
+
+#tagResults {
+	border-style: solid;
+	border-width: thin;
+	display: inline-block;
+	padding: 3px 6px 3px 6px;
+	display: inline-block;
+	margin-left: 5px;
+	width: 478px;
+}
+
+#loginMapTitle {
+	margin-top: 20px;
+	margin-bottom: 9px;
+	margin-left: 20px;
+	width: 537px;
+	border-style: solid;
+	border-width: thin;
+	text-align: center;
+	font-size: 1.5em;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #F5F5F5;
+}
+
+#loginMapContent {
+	border-style: solid;
+	border-width: thin;
+	min-height: 310px;
+	width: 537px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.eventNumber {
+	margin-top: 10px;
+	font-size: 1.3em;
+	position: relative;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.eventNumber:hover {
+	text-decoration: underline;
+}
+
+
+#popUpContent {
+	font-size: .75em;
+	margin-bottom: 3px;
+	padding:3px;
+}
+
+.sampleDiv {
+	margin-top: 10px;
+}
+
+.divBubble {
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 1.3em;
+	margin-left: 5px;
+}

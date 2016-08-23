@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="http://localhost/CampusConnect/HTML/ADGallery/lib/jquery.ad-gallery.css">
+  <script type="text/javascript" src="http://localhost/CampusConnect/HTML/scripts/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="http://localhost/CampusConnect/HTML/ADGallery/lib/jquery.ad-gallery.js"></script>
+  <script type="text/javascript">
+  $(function() {
+    var galleries = $('.ad-gallery').adGallery();
+  });
+  </script>
+  <style type="text/css">
+	 body {
+	  padding: 30px;
+	  font-size: 70%;
+	  width: 800px;
+	}
+  </style>
+</head>
+<body>
+<div class='photoGalleryContain'>
+  <div id="container">
+    <div id="gallery" class="ad-gallery">
+      <div class="ad-image-wrapper">
+      </div>
+      <div class="ad-controls">
+      </div>
+      <div class="ad-nav">
+        <div class="ad-thumbs">
+          <ul class="ad-thumb-list">
+            <li>
+              <a href="images/10.jpg">
+                <img src="images/thumbs/t10.jpg" title="A title for 10.jpg" alt="This is a nice, and incredibly descriptive, description of the image 10.jpg" class="image1">
+              </a>
+            </li>
+            <li>
+              <a href="images/10.jpg">
+                <img src="images/thumbs/t10.jpg" title="A title for 10.jpg" alt="This is a nice, and incredibly descriptive, description of the image 10.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="images/11.jpg">
+                <img src="images/thumbs/t11.jpg" title="A title for 11.jpg" longdesc="http://coffeescripter.com" alt="This is a nice, and incredibly descriptive, description of the image 11.jpg">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>

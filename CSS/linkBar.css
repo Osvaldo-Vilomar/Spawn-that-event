@@ -1,0 +1,63 @@
+#follow {
+	border-right-style: solid;
+	border-width: thin;
+	font-size: 1.3em;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	display: inline-block;
+	position: relative;
+}
+
+#follow:hover {
+	background-color: rgb(225, 225, 225);
+}
+
+#groupPage {
+	border-right-style: solid;
+	border-width: thin;
+	font-size: 1.3em;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+
+#groupPage:hover {
+	background-color: rgb(225, 225, 225);
+}
+
+#followDropDown {
+	position: absolute;
+	left: -1px;
+	top: 100%;
+	border: 1px solid;
+	min-width: 200px;
+	max-width: 400px;
+	z-index: 2;
+	background-color: white;
+	display: none;
+	font-size: .85em;
+}
+
+#followSearchLink {
+	padding: 5px 10px;
+	border-bottom: 1px solid;
+}
+#followSearchLink:hover {
+	cursor: default;
+	background-color: rgb(225, 225, 225);
+	border-width: thin;
+}
+
+#followCreateLink {
+	padding: 5px 10px;
+}
+#followCreateLink:hover {
+	cursor: default;
+	background-color: rgb(235, 235, 235);
+}
